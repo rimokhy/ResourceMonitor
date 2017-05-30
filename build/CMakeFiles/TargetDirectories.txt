@@ -1,0 +1,6 @@
+C:/Users/rimokh_y/ResourceMonitor/build/CMakeFiles/ResourceMonitor.dir
+C:/Users/rimokh_y/ResourceMonitor/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/rimokh_y/ResourceMonitor/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/rimokh_y/ResourceMonitor/build/common/CMakeFiles/ResourceMonitorCommon.dir
+C:/Users/rimokh_y/ResourceMonitor/build/Memory/CMakeFiles/ResourceMonitorMemory.dir
+C:/Users/rimokh_y/ResourceMonitor/build/CPU/CMakeFiles/ResourceMonitorCPU.dir

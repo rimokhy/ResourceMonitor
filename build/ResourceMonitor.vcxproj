@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CCC72E69-50D7-35C4-AF22-11E102AF9AB1}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ResourceMonitor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\rimokh_y\ResourceMonitor\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ResourceMonitor.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ResourceMonitor</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\rimokh_y\ResourceMonitor\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ResourceMonitor.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ResourceMonitor</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\rimokh_y\ResourceMonitor\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ResourceMonitor.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ResourceMonitor</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\rimokh_y\ResourceMonitor\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ResourceMonitor.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ResourceMonitor</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Memory\Debug\ResourceMonitorMemory.lib;common\Debug\ResourceMonitorCommon.lib;CPU\Debug\ResourceMonitorCPU.lib;pdh.lib;wbemuuid.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rimokh_y/ResourceMonitor/build/Debug/ResourceMonitor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rimokh_y/ResourceMonitor/bin/Debug/ResourceMonitor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Memory\Release\ResourceMonitorMemory.lib;common\Release\ResourceMonitorCommon.lib;CPU\Release\ResourceMonitorCPU.lib;pdh.lib;wbemuuid.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rimokh_y/ResourceMonitor/build/Release/ResourceMonitor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rimokh_y/ResourceMonitor/bin/Release/ResourceMonitor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Memory\MinSizeRel\ResourceMonitorMemory.lib;common\MinSizeRel\ResourceMonitorCommon.lib;CPU\MinSizeRel\ResourceMonitorCPU.lib;pdh.lib;wbemuuid.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rimokh_y/ResourceMonitor/build/MinSizeRel/ResourceMonitor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rimokh_y/ResourceMonitor/bin/MinSizeRel/ResourceMonitor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\rimokh_y\ResourceMonitor\Memory\impl\include;C:\Users\rimokh_y\ResourceMonitor\Memory\interface;C:\Users\rimokh_y\ResourceMonitor\CPU\impl\include;C:\Users\rimokh_y\ResourceMonitor\CPU\interface;C:\Users\rimokh_y\ResourceMonitor\common\impl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Memory\RelWithDebInfo\ResourceMonitorMemory.lib;common\RelWithDebInfo\ResourceMonitorCommon.lib;CPU\RelWithDebInfo\ResourceMonitorCPU.lib;pdh.lib;wbemuuid.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/rimokh_y/ResourceMonitor/build/RelWithDebInfo/ResourceMonitor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/rimokh_y/ResourceMonitor/bin/RelWithDebInfo/ResourceMonitor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -HC:/Users/rimokh_y/ResourceMonitor -BC:/Users/rimokh_y/ResourceMonitor/build --check-stamp-file C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -HC:/Users/rimokh_y/ResourceMonitor -BC:/Users/rimokh_y/ResourceMonitor/build --check-stamp-file C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -HC:/Users/rimokh_y/ResourceMonitor -BC:/Users/rimokh_y/ResourceMonitor/build --check-stamp-file C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\bin\cmake.exe" -HC:/Users/rimokh_y/ResourceMonitor -BC:/Users/rimokh_y/ResourceMonitor/build --check-stamp-file C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/rimokh_y/ResourceMonitor/CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCCompiler.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\3.6.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\JetBrains\CLion 2016.2.2\bin\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\rimokh_y\ResourceMonitor\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\rimokh_y\ResourceMonitor\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rimokh_y\ResourceMonitor\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/rimokh_y/ResourceMonitor/build/ZERO_CHECK.vcxproj">
+      <Project>53105F37-6B3A-3716-BE54-88B614EE8DCA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/rimokh_y/ResourceMonitor/build/CPU/ResourceMonitorCPU.vcxproj">
+      <Project>FB8DB159-5BA3-3B62-82BF-10506EE33D3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/rimokh_y/ResourceMonitor/build/common/ResourceMonitorCommon.vcxproj">
+      <Project>F5C5884D-27A0-3338-8DB0-5BD9439DAD3C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/rimokh_y/ResourceMonitor/build/Memory/ResourceMonitorMemory.vcxproj">
+      <Project>FCF4E1CA-8631-309D-ABB2-0CF96DED3DC6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
